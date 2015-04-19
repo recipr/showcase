@@ -10,6 +10,7 @@ Recipe-detail
   * Title-image
   * Ingredients
   * preparation (steps) (images)
+  * portions
   * author
   * date
   * rating
@@ -64,7 +65,7 @@ global
 
   * sitename
   * logo
-  * write recipe
+  * login
 
 ### footer 
 
