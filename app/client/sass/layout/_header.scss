@@ -1,0 +1,17 @@
+.app > .container > .header {
+  background-color: $color-primary;
+  color: $color-primary-text;
+  font-size: $font-size-small;
+  line-height: $font-line-height-small;
+  height: $dim-header-height;
+  padding: $dim-base * 4 $dim-base * 5;
+  @include clear-fix;
+  
+  .nav {
+    float: right;
+  }
+
+  .logo {
+    float: left;
+  }
+}  

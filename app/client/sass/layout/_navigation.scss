@@ -1,0 +1,20 @@
+.nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 0 $dim-base * 3;
+    float: left;
+    font-size: $font-size-small;
+    line-height: $font-line-height-small;
+    
+    a {
+      color: $color-accent;
+      text-decoration: none;
+    }
+  }
+}

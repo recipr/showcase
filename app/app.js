@@ -10,7 +10,7 @@ var linkify = require('./src/helpers/linkify');
 var hbs = exphbs.create({
     defaultLayout: 'main',
     extname: 'hbs',
-    partialsDir: "views/partials/",
+    partialsDir: ["views/partials/"],
     helpers: {
         linkify: linkify,
         log: function(data){

@@ -17,3 +17,8 @@ body {
 .app {
   
 }
+
+.container {
+  min-height: 100%;  
+  margin-bottom: -$dim-footer-height;
+}
