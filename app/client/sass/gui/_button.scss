@@ -1,0 +1,6 @@
+.button {
+  @extend .input;
+  background-color: $color-accent;
+  color: $color-primary-text;
+  text-align: center; 
+}

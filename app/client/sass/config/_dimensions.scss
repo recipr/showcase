@@ -2,3 +2,9 @@ $dim-base: 4px;
 $dim-max-width: 740px;
 $dim-header-height: $dim-base * 13;
 $dim-footer-height: $dim-base * 13;
+
+$dim-radius-default: 2px;
+$dim-radius-default-right: 0 2px 2px 0;
+$dim-radius-default-left: 2px 0 0 2px;
+$dim-radius-default-top: 2px 2px 0 0;
+$dim-radius-default-buttom: 0 0 2px 2px;

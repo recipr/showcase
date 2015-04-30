@@ -1,0 +1,21 @@
+.input {
+  background-color: $color-background;
+  font-size: $font-size-default;
+  line-height: $font-line-height-default;
+  padding: $dim-base * 3 $dim-base * 4;
+  color: $color-text;
+  outline: none;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border-radius: $dim-radius-default;
+
+  &.left {
+    border-radius: $dim-radius-default-left;
+  }
+
+  &.right {
+    border-radius: $dim-radius-default-right;
+  }
+}

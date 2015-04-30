@@ -21,4 +21,5 @@ body {
 .container {
   min-height: 100%;  
   margin-bottom: -$dim-footer-height;
+  padding-top: $dim-header-height;
 }

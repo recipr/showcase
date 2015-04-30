@@ -1,0 +1,18 @@
+.search {
+  display: inline-block;
+  @include clear-fix;
+  position: relative;
+  margin-top: $dim-base * 5;
+
+  .value {
+    float: left;
+    padding-right: $dim-base * 15;
+  }
+
+  .submit-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+  }
+}
