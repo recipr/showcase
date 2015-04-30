@@ -1,0 +1,15 @@
+<h1>Welcome to slemboot</h1>
+
+<h2>Partials:</h2>
+{{> dummy}}
+
+<h2>Helpers:</h2>
+{{{linkify "foo" "bar"}}}
+{{log "Welcome to slemboot"}}
+
+<h2>Route Content</h2>
+<ul>
+{{#each foo}}
+  <li>{{this}}</li>
+{{/each}}
+</ul>
