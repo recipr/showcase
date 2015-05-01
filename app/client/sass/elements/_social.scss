@@ -8,6 +8,15 @@
     margin: 0;
   }
 
+  .icon {
+    width: $dim-base * 5;
+    height: $dim-base * 5;
+  }
+
+  svg * {
+    fill: $color-background;
+  }
+
   .twitter {
     background-color: #55ACEE;
   } 

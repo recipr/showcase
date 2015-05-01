@@ -1,0 +1,31 @@
+.checkbox{
+  cursor: pointer;
+  position: relative;
+
+  .box {
+    opacity: 0;
+  }
+
+  .box:checked + .icon {
+    display: inline-block;
+  }
+
+  .icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    * {
+      fill: $color-accent;
+    }
+  }
+
+  width: $dim-base * 5;
+  height: $dim-base * 5;
+  display: inline-block;
+  border: 1px solid $color-neutral;
+  border-radius: $dim-radius-default;
+  background-color: $color-background;
+}

@@ -1,10 +1,14 @@
 {
-  "name": "slemboot",
+  "name": "recipr",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest"
+    "watch" : "mochify --watch",
+    "phantom" : "mochify",
+    "wd" : "mochify --wd",
+    "cover": "mochify --cover",
+    "test": "npm run phantom && npm run wd && npm run cover"
   },
   "dependencies": {
     "body-parser": "~1.12.0",
@@ -36,6 +40,7 @@
     "gulp.spritesmith": "^3.3.0",
     "jest-cli": "^0.4.0",
     "lodash": "^3.5.0",
+    "mochify": "^2.8.1",
     "pretty-hrtime": "^1.0.0",
     "read-file": "^0.1.2",
     "require-dir": "^0.2.0",

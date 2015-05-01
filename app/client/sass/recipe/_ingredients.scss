@@ -25,4 +25,22 @@
       top: $dim-base * 2;
     }
   }
+
+  .checkbox {
+    position: absolute;
+    left: 0;
+  }
+
+  &.checkboxed {
+    border-left: 0;
+
+    .ingredient {
+      padding: 0 0 0 $dim-base * 8;
+      cursor: pointer;
+    }
+
+    .ingredient::before {
+      display: none;
+    }
+  }
 }

@@ -13,6 +13,7 @@
 @import 'gui/_spinner';
 @import 'gui/_dropdown';
 @import 'gui/_icons';
+@import 'gui/_checkbox';
 
 @import 'layout/_header'; 
 @import 'layout/_hero'; 
@@ -28,9 +29,11 @@
 @import 'elements/_social';
 @import 'elements/_date';
 
-
 @import 'recipe/_recipe';
 @import 'recipe/_header';
 @import 'recipe/_ingredients';
 @import 'recipe/_preparation';
 @import 'recipe/_info';
+@import 'recipe/_sidebar';
+@import 'recipe/_show-sidebar';
+

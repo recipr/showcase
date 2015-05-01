@@ -1,4 +1,4 @@
-<article class="recipe-detail card rect">
+<article class="recipe-detail card rect z-1">
   {{> recipe/header}}
   <div class="inset">
     {{> recipe/ingredients}}
@@ -8,6 +8,10 @@
   </div>
 </article>
 
-<aside>
+<aside class="other-recipes">
   {{> listing title="Other tasty recipes!"}}
 </aside>
+
+{{> recipe/sidebar}}
+{{> recipe/showSidebar}}
+

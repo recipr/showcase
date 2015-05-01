@@ -1,9 +1,55 @@
-<div class="ingredients card z-1">
+<div class="ingredients card z-1 {{#if checkboxed}}checkboxed{{/if}}">
   <h3 class="card-title">Ingredients</h3>
   <ul class="list inset">
-    <li class="ingredient"><strong>1 stick </strong>unsalted butter, diced</li>
-    <li class="ingredient"><strong>5 ounces </strong>bittersweet chocolate</li>
-    <li class="ingredient"><strong>2 large </strong>Eggs</li>
-    <li class="ingredient">some expensive sea salt to taste and garnish</li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>1 stick </strong>unsalted butter, diced
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>5 ounces </strong>bittersweet chocolate
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>2 large </strong>Eggs
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        some expensive sea salt to taste and garnish
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>1 stick </strong>unsalted butter, diced
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>5 ounces </strong>bittersweet chocolate
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        <strong>2 large </strong>Eggs
+      </label>
+    </li>
+    <li class="ingredient">
+      <label>
+        {{#if checkboxed}} {{>checkbox}} {{/if}}
+        some expensive sea salt to taste and garnish
+      </label>
+    </li>
+
+    
   </ul>
 </div>

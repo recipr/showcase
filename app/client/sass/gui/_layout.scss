@@ -15,7 +15,15 @@ body {
 }
 
 .app {
-  
+  &.noScroll {
+    overflow: hidden;
+  }
+
+  &.flyoutVisible {
+    .show-sidebar {
+      display: none;
+    }
+  }
 }
 
 .container {
