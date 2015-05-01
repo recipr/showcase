@@ -3,4 +3,9 @@
   background-color: $color-accent;
   color: $color-primary-text;
   text-align: center; 
+
+  &.trans {
+    background-color: transparent;
+    color: $color-text;
+  }
 }

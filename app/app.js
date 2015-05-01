@@ -5,14 +5,14 @@ var exphbs  = require('express-handlebars');
 var Routes = require('./src/routes');
 
 /* Helpers */
-var linkify = require('./src/helpers/linkify');
+var icon = require('./src/helpers/icon');
 
 var hbs = exphbs.create({
     defaultLayout: 'main',
     extname: 'hbs',
     partialsDir: ["views/partials/"],
     helpers: {
-        linkify: linkify,
+        icon: icon,
         log: function(data){
           console.log(data);
         }

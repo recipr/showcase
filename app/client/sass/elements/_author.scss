@@ -1,0 +1,16 @@
+.author {
+    
+    position: relative;
+    padding-left: $dim-base * 7;
+  
+    .image { 
+        background-color: $color-neutral;
+        width: $dim-base * 5;
+        height: $dim-base * 5;
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

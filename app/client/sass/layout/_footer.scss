@@ -1,5 +1,5 @@
 .app > .footer {
-  background-color: $color-primary;
+  background-color: darken($color-primary, 30);
   color: $color-primary-text;
   font-size: $font-size-small;
   line-height: $font-line-height-small;

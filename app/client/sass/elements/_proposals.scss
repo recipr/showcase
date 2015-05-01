@@ -1,0 +1,33 @@
+.proposals {
+  background-color: $color-primary;
+  color: $color-primary-text;  
+  padding: $dim-box-padding;
+  @include clear-fix;
+
+  section {
+    margin-bottom: $dim-base * 6;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading-big {
+    margin: 0 0 $dim-base * 3 0;
+  }
+
+  li {
+    margin: $dim-base * 4 0;
+    padding: 0;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

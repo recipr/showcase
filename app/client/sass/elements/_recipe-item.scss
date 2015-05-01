@@ -1,0 +1,16 @@
+.recipe-item {
+  
+  .title {
+    font-size: $font-size-default;
+    line-height: $font-line-height-default;
+    font-weight: normal;
+    margin: 0 0 $dim-base * 3;
+  }
+
+  .title-image {
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: $dim-base * 40;
+  }
+}

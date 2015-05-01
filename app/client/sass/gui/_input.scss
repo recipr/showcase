@@ -18,4 +18,8 @@
   &.right {
     border-radius: $dim-radius-default-right;
   }
+
+  &.rect {
+    border-radius: 0;
+  }
 }

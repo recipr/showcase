@@ -1,0 +1,24 @@
+.heading-big,
+.heading-ultra {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.heading-big {
+  font-size: $font-size-big;
+  line-height: $font-line-height-big;
+}
+
+.heading-ultra {
+  font-size: $font-size-ultra;
+  line-height: $font-line-height-ultra;
+}
+
+.heading-neutral {
+  color: $color-neutral;
+  font-size: $font-size-small;
+  line-height: $font-line-height-small;
+  text-transform: uppercase;
+  font-weight: normal;
+}

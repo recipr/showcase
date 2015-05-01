@@ -1,0 +1,23 @@
+.rating {
+  color: $color-neutral;
+  float: right;
+  width: auto;
+  margin: 0;
+  padding: 0;
+
+  &.button {
+    width: $dim-base * 10;
+    height: $dim-base * 10;
+    padding: $dim-base + 2;
+
+    .icon {
+      width: $dim-icon-default;
+      height: $dim-icon-default;
+    }
+  }
+
+  .icon {
+    width: $dim-base * 5;
+    height: $dim-base * 5;
+  }
+} 

@@ -1,0 +1,17 @@
+.recipe-header {
+  .title-image{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .title {
+    padding-right: $dim-base * 17;
+    margin-bottom: $dim-base * 3;
+  } 
+ 
+  .date {
+    float: right;
+  }
+}

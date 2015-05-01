@@ -1,0 +1,21 @@
+.recpie-preparation {
+  
+  margin: $dim-base * 8 0;
+
+  .step-title,
+  p,
+  img {
+    margin: $dim-base * 5 0;
+  }
+
+  .step {
+    margin: $dim-base * 8 0;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

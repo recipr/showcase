@@ -1,0 +1,26 @@
+.social{
+  @include clear-fix;
+  border-radius: $dim-radius-default;
+
+  .item{
+    float: left;
+    width: 20%;
+    margin: 0;
+  }
+
+  .twitter {
+    background-color: #55ACEE;
+  } 
+
+  .facebook {
+    background-color: #3B5998;
+  }
+
+  .pinterest {
+    background-color: #CC2127;
+  }
+
+  .gplus {
+    background-color: #DD4B39;
+  }
+}

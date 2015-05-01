@@ -1,0 +1,15 @@
+.listing {
+  padding: $dim-base * 3 $dim-base * 4;
+
+  .title,
+  .filter,
+  .item {
+    margin: $dim-base * 5 0;
+  }
+
+  .more {
+    display: block;
+    margin: $dim-base * 8 auto $dim-base * 5;
+    text-align: center;
+  }
+}

@@ -79,4 +79,9 @@ module.exports = {
     jsSrc: dest + '/*.js',
     dest: dest
   },
+
+  icons: {
+    src: src + '/../res/icons.sketch',
+    dest: dest + '/../views/icons',
+  }
 }

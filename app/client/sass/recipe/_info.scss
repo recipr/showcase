@@ -1,0 +1,16 @@
+.additional-info {
+  background-color: rgba($color-neutral, 0.15);
+  padding: $dim-base $dim-base * 4;
+  margin: $dim-base * 5 0;
+
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info {
+    margin: $dim-base * 3 0;
+    display: block;
+  }
+}

@@ -1,0 +1,28 @@
+.ingredients {
+  border-left: $dim-base solid $color-accent;
+
+  .list {
+    list-style-type: none;
+    margin: 0;
+  } 
+
+  .ingredient {
+
+    margin: $dim-base * 3 0;
+    padding: 0 0 0 $dim-base * 4;
+    position: relative;
+
+    &::before {
+      content: '';
+      width: $dim-base * 1.5;
+      height: $dim-base * 1.5;
+      border-radius: 50%;
+      background-color: $color-neutral; 
+      display: inline-block;
+      margin-right: $dim-base * 3;
+      position: absolute;
+      left: 0;
+      top: $dim-base * 2;
+    }
+  }
+}
