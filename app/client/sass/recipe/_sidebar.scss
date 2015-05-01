@@ -23,8 +23,7 @@
     width: 100%;
     height: 100%;
     overflow: scroll;
-    padding-left: 20px;
-    background-color: $color-background;
+    padding-left: $dim-base * 10;
   }
 
   .ingredients {
