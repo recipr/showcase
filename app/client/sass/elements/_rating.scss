@@ -1,12 +1,12 @@
 .rating {
+  position: relative;
   color: $color-neutral;
   float: right;
   width: auto;
   margin: 0;
-  padding: 0;
+  padding: 0  $dim-base * 7 0 0;
 
   &.button {
-    width: $dim-base * 10;
     height: $dim-base * 10;
     padding: $dim-base + 2;
 
@@ -19,5 +19,8 @@
   .icon {
     width: $dim-base * 5;
     height: $dim-base * 5;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 } 

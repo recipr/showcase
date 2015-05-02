@@ -6,6 +6,10 @@
 
   section {
     margin-bottom: $dim-base * 6;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    max-width: $dim-list-item-width;
   }
 
   ul {
@@ -21,13 +25,12 @@
   li {
     margin: $dim-base * 4 0;
     padding: 0;
+  }
 
-    &:first-of-type {
-      margin-top: 0;
-    }
-
-    &:last-of-type {
-      margin-bottom: 0;
+  @media all and (min-width: $breakpoint-md){
+    section {
+      float: left;
+      width: 100/3;
     }
   }
 }
