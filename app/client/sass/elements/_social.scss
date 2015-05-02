@@ -6,15 +6,17 @@
     float: left;
     width: 20%;
     margin: 0;
+    text-align: center;
   }
 
   .icon {
     width: $dim-base * 5;
     height: $dim-base * 5;
+    display: inline;
   }
 
-  svg * {
-    fill: $color-background;
+  .name {
+    display: none;
   }
 
   .twitter {
@@ -31,5 +33,20 @@
 
   .gplus {
     background-color: #DD4B39;
+  }
+
+  @media all and (min-width: $breakpoint-sd){
+    .item {
+      text-align: left;
+    }
+
+    .name {
+      display: inline;
+    }
+
+    .icon {
+      float: left;
+      margin-right: $dim-base * 2;
+    }
   }
 }

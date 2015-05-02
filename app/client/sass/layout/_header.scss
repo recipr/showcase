@@ -24,4 +24,14 @@
     width: $dim-base * 5;
     height: $dim-base * 5;
   }
+
+  .search {
+    display: none;
+  }
+
+  &.show-search-icon {
+    .search {
+      display: block;
+    }
+  }
 }  
