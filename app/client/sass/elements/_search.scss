@@ -2,7 +2,6 @@
   display: inline-block;
   @include clear-fix;
   position: relative;
-  margin-top: $dim-base * 5;
 
   .value {
     float: left;
@@ -13,6 +12,26 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 45px;
+    width: auto;
+  }
+
+  @media all and (min-width: $breakpoint-sd){
+
+    width: 100%;
+    max-width: 450px;
+
+    .input {
+      font-size: $font-size-big;
+      line-height: $font-line-height-big;
+    }
+
+    .button {
+      font-size: $font-size-big;
+      line-height: $font-line-height-big;
+     .icon {
+        width: $font-line-height-big;
+        height: $font-line-height-big;
+      }
+    }
   }
 }

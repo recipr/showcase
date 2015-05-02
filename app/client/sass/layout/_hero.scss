@@ -23,8 +23,27 @@
     line-height: 30px;
   }
 
+  .search {
+    margin-top: $dim-base * 5;
+  }
 
   @media all and (min-width: $breakpoint-sd){
     min-height: 400px;
+    padding-top: $dim-base * 20;
+    padding-bottom: $dim-base * 32;
+
+    .headline {
+      font-size: 60px;
+      line-height: 72px;
+    }
+
+    .subline {
+      font-size: 35px;
+      line-height: 46px;
+    }
+
+    .search {
+      margin-top: $dim-base * 8;
+    }
   }
 }

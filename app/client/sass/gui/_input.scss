@@ -22,4 +22,9 @@
   &.rect {
     border-radius: 0;
   }
+
+  &.big {
+    font-size: $font-size-big;
+    line-height: $font-line-height-big;
+  }
 }

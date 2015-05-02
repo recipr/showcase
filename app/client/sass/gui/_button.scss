@@ -11,7 +11,14 @@
 
   .icon {
     display: block;
-    width: $dim-base * 5;
-    height: $dim-base * 5;
+    width: $font-line-height-default;
+    height: $font-line-height-default;
+  }
+
+  &.big {
+    .icon {
+      width: $font-line-height-big;
+      height: $font-line-height-big;
+    }
   }
 }
