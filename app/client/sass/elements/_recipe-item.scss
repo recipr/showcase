@@ -1,5 +1,9 @@
 .recipe-item {
   
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+
   .title {
     font-size: $font-size-default;
     line-height: $font-line-height-default;

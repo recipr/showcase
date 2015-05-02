@@ -1,8 +1,8 @@
 /* Width Breakpoints */
 
-$breakpoint-sd: 400px;
-$breakpoint-md: 640px;
-$breakpoint-ld: 900px;
+$breakpoint-sd: $dim-list-item-width * 2 + $dim-list-item-margin * 4;
+$breakpoint-md: $dim-list-item-width * 3 + $dim-list-item-margin * 6;
+$breakpoint-ld: $dim-list-item-width * 4 + $dim-list-item-margin * 8;
 
 /* Height Breakpoints */
 $breakpoint-lh: 640px;

@@ -1,10 +1,99 @@
 .listing {
+
+  $bp2: $dim-list-item-width * 2 + $dim-list-item-margin * 4;
+  $bp3: $dim-list-item-width * 3 + $dim-list-item-margin * 6;
+  $bp4: $dim-list-item-width * 4 + $dim-list-item-margin * 8;
+  $bp5: $dim-list-item-width * 5 + $dim-list-item-margin * 10;
+  $bp6: $dim-list-item-width * 6 + $dim-list-item-margin * 12;
+
   padding: $dim-base * 3 $dim-base * 4;
+  margin: 0 auto;
 
   .title,
-  .filter,
+  .filter {
+    margin: $dim-list-item-margin auto;
+  }
+
+  .filter {
+    max-width: $dim-list-item-width;
+    margin-bottom: 0;
+  }
+
   .item {
-    margin: $dim-base * 5 0;
+    margin: $dim-list-item-margin auto;
+    max-width: $dim-list-item-width;
+  }
+
+  .result-header {
+    @include clear-fix;
+  }
+
+  .list {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    @include clear-fix;
+  }
+
+  @media all and (min-width: $bp2){
+    padding-left: 0;
+    padding-right: 0;
+    max-width: $bp2;
+
+    .item {
+      float: left;
+      max-width: $dim-list-item-width;
+      margin: $dim-list-item-margin;
+    }
+
+    .title {
+      float: left;
+    }
+
+    .filter {
+      float: right;
+
+      .dropdown {
+        box-shadow: none; 
+      }
+    }
+
+    .result-header {
+      max-width: $bp2;
+      padding: 0 $dim-list-item-margin;
+    }
+  }
+
+  @media all and (min-width: $bp3){
+    max-width: $bp3;
+
+    .result-header {
+      max-width: $bp3;
+    }
+  }
+
+  @media all and (min-width: $bp4){
+    max-width: $bp4;
+
+    .result-header {
+      max-width: $bp4;
+    }
+  }
+
+  @media all and (min-width: $bp5){
+    max-width: $bp5;
+
+    .result-header {
+      max-width: $bp5;
+    }
+  }
+
+  @media all and (min-width: $bp6){
+    max-width: $bp6;
+
+    .result-header {
+      max-width: $bp6;
+    }
   }
 
   .more {

@@ -5,6 +5,7 @@ var exphbs  = require('express-handlebars');
 var Routes = require('./src/routes');
 
 /* Helpers */
+var icons = require('./src/helpers/icons');
 var icon = require('./src/helpers/icon');
 
 var hbs = exphbs.create({
@@ -12,6 +13,7 @@ var hbs = exphbs.create({
     extname: 'hbs',
     partialsDir: ["views/partials/"],
     helpers: {
+        icons: icons,
         icon: icon,
         log: function(data){
           console.log(data);

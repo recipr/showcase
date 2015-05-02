@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: bin/sketchtool 1.2 (196) - http://www.bohemiancoding.com/sketch -->
-    <title>favorite</title>
-    <desc>Created with bin/sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="favorite" sketch:type="MSArtboardGroup" fill="#000000">
-            <polygon id="Star-2-Copy-2" sketch:type="MSShapeGroup" points="50 75.8948564 22.1884705 90.5 27.5 59.5658094 5 37.658094 36.0942353 33.1448564 50 5 63.9057647 33.1448564 95 37.658094 72.5 59.5658094 77.8115295 90.5 "></polygon>
-        </g>
-    </g>
-</svg>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><title>favorite</title><path d="M50 75.895L22.188 90.5 27.5 59.566 5 37.658l31.094-4.513L50 5l13.906 28.145L95 37.658 72.5 59.566 77.812 90.5" fill-rule="evenodd"/></svg>

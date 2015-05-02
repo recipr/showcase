@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: bin/sketchtool 1.2 (196) - http://www.bohemiancoding.com/sketch -->
-    <title>arrow-right</title>
-    <desc>Created with bin/sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="arrow-right" sketch:type="MSArtboardGroup" fill="#000000">
-            <path d="M76.71875,50 L32.1875,95 L23.28125,86 L58.90625,50 L23.28125,14 L32.1875,5 L76.71875,50 L76.71875,50 Z" id="Rectangle-9" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><title>arrow-right</title><path d="M76.72 50L32.187 95l-8.907-9 35.626-36L23.28 14l8.907-9L76.72 50z" fill-rule="evenodd"/></svg>

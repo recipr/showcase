@@ -22,4 +22,9 @@
     font-size: 25px;
     line-height: 30px;
   }
+
+
+  @media all and (min-width: $breakpoint-sd){
+    min-height: 400px;
+  }
 }

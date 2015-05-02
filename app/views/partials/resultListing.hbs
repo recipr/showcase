@@ -1,20 +1,22 @@
 <div class="listing">
 
-  <h1 class="title heading-big">44 Muffin recipes</h1>
+  <header class="result-header">
+    <h1 class="title heading-big">44 Muffin recipes</h1>
 
-  <div class="filter">
-    {{> dropdown name="Sort by relevance"}}
-  </div>
+    <div class="filter">
+      {{> dropdown name="Sort by relevance"}}
+    </div>
+  </header>
 
-  <div class="list">
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-    {{> listing/recipeItem}}
-  </div>
+  <ul class="list">
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+    <li class="item">{{> listing/recipeItem}}</li>
+  </ul>
 
   <div class="more a"><span class="spinner"></span>Loading more recipes</div>
 </div>
